@@ -43,7 +43,8 @@
   <label>Username:</label>
   <input type="name" placeholder="Enter Username" name="user" required>
   <label>Password:</label>
-  <input type="password" placeholder="Enter Password" name="password" required>
+  <input type="password" placeholder="Enter Password" name="password" pattern=".{5,10}" title="5 to 10 characters" required>
+  <button id="downloadSubmit" type="submit" name="button" value="Click" class="btn btn-info">Login</button>
 </form>
 
 <div class="panel-footer">

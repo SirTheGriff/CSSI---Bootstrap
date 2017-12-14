@@ -37,41 +37,44 @@
 </nav>
 
 <h2>Contact Us</h2>
-<div class="contactus">
-<form>
+<div class="contactus" method="post">
+<form name="contact_cssi">
  <div class="form-group row">
-  <label for="example-text-input" class="col-2 col-form-label">Name</label>
+  <label for="name" class="col-2 col-form-label">Name</label>
   <div class="col-10">
-    <input class="form-control" type="text" value="Name" id="example-text-input">
+    <input class="form-control" type="text" name="name" id="example-text-input">
   </div>
 </div>
 <div class="form-group row">
-  <label for="example-email-input" class="col-2 col-form-label">Email</label>
+  <label for="email" class="col-2 col-form-label">Email</label>
   <div class="col-10">
-    <input class="form-control" type="email" value="cssi@example.com" id="example-email-input">
+    <input class="form-control" type="email" name="email" id="example-email-input">
   </div>
 </div>
 <div class="form-group row">
-  <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+  <label for="tel" class="col-2 col-form-label">Telephone</label>
   <div class="col-10">
-    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+    <input class="form-control" type="tel" name="phone" id="example-tel-input">
   </div>
 </div>
 <div class="form-group row">
-  <label for="example-text-input" class="col-2 col-form-label">Questions or Comments</label>
+  <label for="question" class="col-2 col-form-label">Questions or Comments</label>
   <div class="col-10">
-    <input class="form-control" type="text" value="Ask question or place comment here" id="example-text-input">
+    <input class="form-control" type="text" name="question" id="example-text-input">
   </div>
 </div>
-<button type="button" class="btn btn-info">Send!</button>
+<button id="formSubmit" type="submit" name="button" value="Click" class="btn btn-info">Send !</button>
 </form>
 </div>
 </div>
 
 
+
  <h2>Directions to CSSI</h2>
 
- <p>Directions from Philadelphia:</p>
+ <h3>Directions from Philadelphia:</h3>
+  
+  
   <ul>
     <li>Follow I-76 W toward the sign for exits 328B-A / 327 for 202 to 422 W to King of Prussia.</li>
     <li>Take exit 328A to 422 W / Swedesford Road.</li>
@@ -81,11 +84,17 @@
     <li>Take the very 1st right onto Freedom Business Center Dr.</li>
     <li>Park at the first building on your right – we are on the 3rd floor.</li>
   </ul>
-  <p>Directions from Pennsylvania Turnpike:</p>
+
+  <h3>Directions from Pennsylvania Turnpike:</h3>
+
+  <ul>
    <li>Follow PA Turnpike to exit 326 to merge onto I-76 E toward Valley Forge/US-202/I-476/Philadelphia.</li>
     <li>Take exit 327 for N Gulph Road toward Valley Forge.</li>
     <li>Turn right onto Freedom Business Center Dr.</li>
     <li>Park at the first building on your right – we are on the 3rd floor.</li>
+  </ul>
+
+  
  
 <div class="panel-footer">
    
@@ -97,6 +106,7 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="forms.js"></script>
 </body>
 </html>
 

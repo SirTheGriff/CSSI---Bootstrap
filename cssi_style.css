@@ -30,7 +30,11 @@ h3, h2 {
 	font-weight: 700;
 }
 
-h3, p, form{
+h2 {
+	margin-left: 2%;
+}
+
+h3, p, form {
 	margin-left: 2%;
 	margin: 2%;
 	font-size: 1em;
@@ -64,6 +68,11 @@ h3, p, form{
 
 }
 
+#computerimg {
+	margin: 2%;
+ 
+}
+
 .contactus {
 	border: 2px solid rgb(93,188,210);
 	margin: 2%;
@@ -77,3 +86,7 @@ h3, p, form{
     height: 0;
     overflow: hidden;
 }
+
+#formSubmit { 
+	background-color: rgb(93,188,210); 
+ }
