@@ -1,3 +1,1 @@
-This is my CodeLouisville project. 
-The end goal is to redo the entire site, making it ideal for mobile devices, as well as larger screens.
-For now, I am building only certain parts of it, parts that correspond to my learning path.
+This was my first attempt using bootstrap and css layout methods for recreating my company's website. I won't be using bootstrap for the project, but may come back to it after I make one without it. 
